@@ -1,0 +1,4 @@
+label encoding
+
+data.newCol = data.salary.cat.reorder_categories(['gd', 'gdfg','gdfgdg'])
+data.newCol = data.newCol.cat.codes	
